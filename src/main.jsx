@@ -4,17 +4,39 @@ import './index.css'
 
 import { RouterProvider } from 'react-router/dom';
 import { createBrowserRouter } from 'react-router';
+import RootLayout from './layout/RootLayout';
+import Homepage from './pages/homepage/Homepage';
+import Timeline from './pages/timeline/Timeline';
+import FriendDetails from './pages/friendDetails/FriendDetails';
+import Stats from './pages/stats/Stats';
+import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Home Page</div>,
+    element: <RootLayout/>,
+    children: [
+      {
+        path: "/",
+        element: <Homepage/>,
+      },
+      {
+        path: "/timeline",
+        element: <Timeline/>,
+      },
+      {
+        path: "/friendDetails",
+        element: <FriendDetails/>,
+      },
+      {
+        path: "/stats",
+        element: <Stats/>,
+      },
+    ],
+    errorElement: <NotFoundPage/>
   },
-  {
-    path: "/apps",
-    element: <h2>All apps</h2>
-  }
+  
 ]);
 
 
