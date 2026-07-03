@@ -6,9 +6,17 @@ import Footer from "../components/shared/Footer";
 const RootLayout = () => {
     return (
         <div>
-            <Navbar/>
-            <Outlet/>
-            <Footer/>
+            <Navbar />
+
+
+            <main className=" bg-[#F8FAFC]">
+                <div className="max-w-4xl  mx-auto">
+                    <Outlet/>
+                </div>
+            </main>
+
+            <Footer />
+
         </div>
     );
 };

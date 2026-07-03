@@ -13,7 +13,7 @@ const Navbar = () => {
                     <li>
                         <NavLink to={"/" } className={({isActive})=>{
                             return `${isActive ? "bg-[#244D3F] text-white flex gap-1 items-center py-1 px-2 " : "bg-white flex gap-1 items-center p-1 "}`
-                        }}
+                       }}
                         > <RiHome2Line/>Home</NavLink>
                     </li>
                     <li>
