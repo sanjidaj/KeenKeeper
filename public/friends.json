@@ -1,0 +1,123 @@
+
+[
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "ayesha.rahman@example.com",
+    "days_since_contact": 21,
+    "status": "overdue",
+    "tags": ["university", "close friend"],
+    "bio": "We met during our first year at university and still catch up about books, career plans, and weekend adventures.",
+    "goal": 14,
+    "next_due_date": "2026-07-10"
+  },
+  {
+    "id": 2,
+    "name": "Tanvir Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/23.jpg",
+    "email": "tanvir.hasan@example.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["school", "football"],
+    "bio": "My school friend and regular football teammate who never misses a chance to organize a match.",
+    "goal": 14,
+    "next_due_date": "2026-07-07"
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/31.jpg",
+    "email": "nusrat.jahan@example.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["study partner"],
+    "bio": "We study programming and machine learning topics together and exchange notes before exams.",
+    "goal": 14,
+    "next_due_date": "2026-07-17"
+  },
+  {
+    "id": 4,
+    "name": "Rafi Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "rafi.ahmed@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["childhood friend"],
+    "bio": "We've been friends since primary school and still play online games together whenever time allows.",
+    "goal": 14,
+    "next_due_date": "2026-07-03"
+  },
+  {
+    "id": 5,
+    "name": "Mehjabin Sultana",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "mehjabin.sultana@example.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["debate club", "university"],
+    "bio": "We met through the university debate club and often discuss current events and public speaking.",
+    "goal": 14,
+    "next_due_date": "2026-07-09"
+  },
+  {
+    "id": 6,
+    "name": "Sabbir Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+    "email": "sabbir.hossain@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["project teammate"],
+    "bio": "A dependable teammate for software projects who enjoys experimenting with new technologies.",
+    "goal": 14,
+    "next_due_date": "2026-07-19"
+  },
+  {
+    "id": 7,
+    "name": "Farzana Islam",
+    "picture": "https://randomuser.me/api/portraits/women/61.jpg",
+    "email": "farzana.islam@example.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["photography", "travel"],
+    "bio": "We bonded over photography and usually share photos from our trips around Bangladesh.",
+    "goal": 14,
+    "next_due_date": "2026-07-06"
+  },
+  {
+    "id": 8,
+    "name": "Imran Kabir",
+    "picture": "https://randomuser.me/api/portraits/men/66.jpg",
+    "email": "imran.kabir@example.com",
+    "days_since_contact": 26,
+    "status": "overdue",
+    "tags": ["internship", "mentor"],
+    "bio": "A former internship colleague who gives great advice about software engineering careers.",
+    "goal": 21,
+    "next_due_date": "2026-06-28"
+  },
+  {
+    "id": 9,
+    "name": "Samira Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/women/72.jpg",
+    "email": "samira.chowdhury@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["book club", "close friend"],
+    "bio": "Our friendship started through a local book club and we exchange reading recommendations regularly.",
+    "goal": 14,
+    "next_due_date": "2026-07-16"
+  },
+  {
+    "id": 10,
+    "name": "Mahmudul Karim",
+    "picture": "https://randomuser.me/api/portraits/men/79.jpg",
+    "email": "mahmudul.karim@example.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["basketball", "neighbor"],
+    "bio": "A neighbor and basketball partner who is always ready for an evening game at the local court.",
+    "goal": 14,
+    "next_due_date": "2026-07-14"
+  }
+]
