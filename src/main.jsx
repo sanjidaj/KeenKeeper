@@ -26,13 +26,14 @@ const router = createBrowserRouter([
         element: <Timeline/>,
       },
       {
-        path: "/friendDetails",
+        path: "/friend/:id",
         element: <FriendDetails/>,
       },
       {
         path: "/stats",
         element: <Stats/>,
       },
+      
     ],
     errorElement: <NotFoundPage/>
   },
