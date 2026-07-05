@@ -4,11 +4,33 @@ import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineTextsms } from "react-icons/md";
 import { RiNotificationSnoozeLine } from "react-icons/ri";
 import { useLocation } from "react-router";
+import { toast } from "react-toastify";
 
 
 const FriendDetails = () => {
     const location = useLocation();
     const friend = location.state;
+
+        const handleInteraction = (type) => {
+            const newEntry = {
+                id: Date.now(),
+                date: new Date().toLocaleDateString(),
+                type,
+                title: `${type} with ${friend.name}`,
+            };
+
+            const timeline =
+                JSON.parse(localStorage.getItem("timeline")) || [];
+
+            timeline.push(newEntry);
+
+            localStorage.setItem("timeline", JSON.stringify(timeline));
+
+            toast.success(`${type} with ${friend.name}`);
+        };
+
+     
+    
     return (
         <div>
             <div className="grid grid-cols-3 gap-6">
@@ -148,17 +170,17 @@ const FriendDetails = () => {
 
                         <div className="grid grid-cols-3 gap-3">
 
-                            <button className="bg-[#F8FAFC] shadow  rounded-xl p-8 flex flex-col items-center gap-4">
+                            <button onClick={() => handleInteraction("Call")} className="bg-[#F8FAFC] shadow  rounded-xl p-8 flex flex-col items-center gap-4">
                                 <LuPhoneCall size={26} />
                                 <span>Call</span>
                             </button>
 
-                            <button className="bg-[#F8FAFC] shadow  rounded-xl p-8 flex flex-col items-center gap-4">
+                            <button onClick={() => handleInteraction("Text")} className="bg-[#F8FAFC] shadow  rounded-xl p-8 flex flex-col items-center gap-4">
                                 <MdOutlineTextsms size={26} />
                                 <span>Text</span>
                             </button>
 
-                            <button className="bg-[#F8FAFC] shadow  rounded-xl p-8 flex flex-col items-center gap-4">
+                            <button onClick={() => handleInteraction("Video")} className="bg-[#F8FAFC] shadow  rounded-xl p-8 flex flex-col items-center gap-4">
                                 <FaVideo size={26} />
                                 <span>Video</span>
                             </button>

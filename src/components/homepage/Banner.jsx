@@ -16,19 +16,19 @@ const Banner = () => {
                 </div>
                 <div className=" grid grid-cols-4 gap-4 ">
                     <div className=" bg-white text-center py-4 ">
-                        <p className="text-[#244D3F] font-semibold text-3xl">0</p>
+                        <p className="text-[#244D3F] font-semibold text-3xl">10</p>
                         <p className="text-[#64748B]">Total Friends</p>
                     </div>
                     <div className=" bg-white text-center py-4 ">
-                        <p className="text-[#244D3F] font-semibold text-3xl">0</p>
+                        <p className="text-[#244D3F] font-semibold text-3xl">4</p>
                         <p className="text-[#64748B]">On Track</p>
                     </div>
                     <div className=" bg-white text-center py-4 ">
-                        <p className="text-[#244D3F] font-semibold text-3xl">0</p>
+                        <p className="text-[#244D3F] font-semibold text-3xl">3</p>
                         <p className="text-[#64748B]">Need Attention</p>
                     </div>
                     <div className=" bg-white text-center py-4 ">
-                        <p className="text-[#244D3F] font-semibold text-3xl">0</p>
+                        <p className="text-[#244D3F] font-semibold text-3xl">7</p>
                         <p className="text-[#64748B] ">Interactions This Month</p>
                     </div>
                   
