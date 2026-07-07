@@ -33,7 +33,7 @@ const FriendDetails = () => {
     
     return (
         <div>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
 
                 <div className="space-y-2">
@@ -103,10 +103,10 @@ const FriendDetails = () => {
                 </div>
 
 
-                <div className="col-span-2 space-y-4 mt-10">
+                <div className="lg:col-span-2 space-y-4 mt-0 lg:mt-10">
 
 
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-4">
 
                         <div className="bg-white rounded-xl shadow p-6 text-center">
                             <h2 className="text-3xl font-bold text-[#244D3F]">
@@ -168,7 +168,7 @@ const FriendDetails = () => {
                             Quick Check-In
                         </h2>
 
-                        <div className="grid grid-cols-3 gap-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
 
                             <button onClick={() => handleInteraction("Call")} className="bg-[#F8FAFC] shadow  rounded-xl p-8 flex flex-col items-center gap-4">
                                 <LuPhoneCall size={26} />

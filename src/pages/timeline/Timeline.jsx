@@ -11,7 +11,7 @@ const Timeline = () => {
     const [filter, setFilter] = useState("all");
 
     return (
-            <div className="py-10">
+            <div className="py-6 md:py-10">
                 <h1 className="text-4xl font-semibold mb-8">Timeline</h1>
             
             <select
